@@ -1,0 +1,217 @@
+@charset "utf-8";
+* {
+	box-sizing: border-box;
+  }
+  
+  *:focus {
+	box-shadow: none;
+  }
+body,html {
+ font-family: calibri light;
+ background-color: white;
+ width: 100%;
+ margin: 0;
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a, a:hover {
+text-decoration: none;}
+
+header {
+	height: 100px;
+	background-color: white;
+	width: 100%;
+}
+.content {
+	padding: 5% 15% 5% 15%;
+	background-color: #D2C0AC;
+}
+.floatfix:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+.slogan {
+	background: URL(https://i.postimg.cc/T1dw1ngZ/branches-4211837-640.jpg);
+	height: 20%;
+    margin: auto;
+    font-family: fantasy;
+    color: #D2C0AC;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+	text-shadow: 2px 2px 4px black;
+
+}
+
+h1.name {
+	display: block;
+	margin: 5px 0;
+	float: left;
+	width: 35%;
+	
+	
+}
+nav {
+	float: right;
+	width: 65%;
+	
+	
+}
+ul {
+	display: table;
+	width: 100%;
+}
+.menu li {
+	
+display: table-cell;
+padding: 15px;	
+text-transform: uppercase;
+color: white;
+text-shadow: 2px 2px 4px #000000;
+font-size: 11px;
+
+}
+
+.menu li:hover {
+	background-color: gray;
+	color: #808080;
+}
+.menu a {
+text-decoration: none;
+display: block;
+}
+
+
+.navigation {
+text-align: center;
+height: 20px;
+line-height: 20px;
+width: 100%;
+font-family: Arial, sans-serif;
+font-size: 14px;
+font-weight: bold;
+margin-left: auto;
+margin-right: auto;
+
+}
+h2 {
+	text-align: center;
+}
+	img.small {
+		float: left;
+		padding-left: 10px;
+		margin: 10px; 
+		height: 200px;
+		width:250px;
+	}
+.logIn {
+width: 250px;
+}
+.button:hover {
+	background-color: cyan;
+	border: 2px solid darkCyan;
+	
+}
+.switch {
+	display: none;
+	background-color: gray;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	padding: 10px 15px;
+	float: right;
+	font-size: 15px;
+	text-decoration: none;
+	box-shadow: 3px 3px 6px black;
+}
+.switch:visited {
+	box-shadow:3px 3px 5px 6px black;
+}
+nav ul, nav ul.visible {
+	display: table;
+	width: 100%;
+}
+.footer {
+	background-color: gray;
+	text-align: center;
+	height: 300%;
+	line-height: 300%;
+	width: 100%;
+}
+/*----480px------*/
+@media screen and (max-width: 480px) {
+	.contener {
+		width: 100%;
+		
+	}
+	
+	.menu li {
+		display: block;
+		width: 100%;
+		height: 10%;
+		line-height: 10%;
+		border-bottom: 2px solid gray;
+		text-align: center;
+	    background-color: #D2C0AC;
+		
+	}
+	nav ul.visible {
+		display: block;
+	}
+	
+}
+
+/*------MAX-WIDTH 624-----*/
+@media screen and (max-width: 624px) {
+	.contener {
+	  width: 96%;
+	
+	}
+	
+	  nav {
+		width: 100%;
+	}
+	.switch {
+		display: block;
+		position: absolute;
+		top: 5%;
+		right: 5%;
+	}
+	
+	}
+	
+/*------MAX-WIDTH 768-----*/
+@media screen and (max-width: 768px) {
+	.contener {
+	  width: 95%;	
+	}
+	
+	nav ul {
+		display: none;
+	}
+	.switch {
+		display: block;
+		position: absolute;
+		top: 5%;
+		right: 5%;
+	}
+    nav {
+		width: 100%;
+	}
+
+}
+
+/*------MAX-WIDTH 1O24-----*/
+@media screen and (max-width: 1024px) {
+	.contener {
+	  width: 90%;	
+	
+	}
+	nav {
+		width: 100%;
+	}
+	}
