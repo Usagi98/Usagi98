@@ -142,6 +142,10 @@ nav ul, nav ul.visible {
 	line-height: 300%;
 	width: 100%;
 }
+
+.font {
+	font-size: 16px;
+}
 /*----480px------*/
 @media screen and (max-width: 480px) {
 	.contener {
