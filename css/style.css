@@ -147,8 +147,8 @@ nav ul, nav ul.visible {
 .font {
 	font-size: 18px;
 	line-height: 1.5;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 16%;
+	padding-right: 16%;
 }
 /*----480px------*/
 @media screen and (max-width: 480px) {
