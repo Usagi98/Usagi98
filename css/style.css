@@ -11,6 +11,7 @@ body,html {
  background-color: white;
  width: 100%;
  margin: 0;
+ font-size: 18px;
 }
 a:link {
 	color: gray;
@@ -19,7 +20,9 @@ a:visited {
 	color: gray;
 }
 a, a:hover {
-text-decoration: none;}
+text-decoration: none;
+color: white;
+}
 
 header {
 	height: 100px;
@@ -218,7 +221,7 @@ nav ul, nav ul.visible {
 /*------MAX-WIDTH 1O24-----*/
 @media screen and (max-width: 1024px) {
 	body {
-	  font-size: 18px;
+	  font-size: 16px;
 	}
 	.contener {
 	  width: 90%;	
