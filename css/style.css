@@ -13,10 +13,10 @@ body,html {
  margin: 0;
 }
 a:link {
-	color: white;
+	color: gray;
 }
 a:visited {
-	color: white;
+	color: gray;
 }
 a, a:hover {
 text-decoration: none;}
@@ -80,7 +80,7 @@ font-size: 11px;
 
 .menu li:hover {
 	background-color: gray;
-	color: #808080;
+	color: white;
 }
 .menu a {
 text-decoration: none;
