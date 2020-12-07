@@ -90,6 +90,9 @@ text-decoration: none;
 display: block;
 color: gray;
 }
+.menu a:hover {
+	color: white;
+}
 
 
 .navigation {
