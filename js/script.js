@@ -24,5 +24,18 @@ $ (document) .ready(function() {
 document.getElementById("help") .innerHTML=("Książki, z których korzystam"); 
 document.getElementById("help").style.textTransform ="uppercase";
 
+  
+
+/*function onMouse() {
+    var element = document.getElementById("");
+    element.style.color = "#fff";
+
+}
+function onMouseOut() {
+  var element = document.getElementById("");
+  element.style.color = "#D2C0AC";
+
+}*/
+
 
 
