@@ -217,6 +217,9 @@ nav ul, nav ul.visible {
 
 /*------MAX-WIDTH 1O24-----*/
 @media screen and (max-width: 1024px) {
+	body {
+	  font-size: 18px;
+	}
 	.contener {
 	  width: 90%;	
 	
