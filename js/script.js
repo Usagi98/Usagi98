@@ -1,3 +1,4 @@
+var d = new Date();
 $ (document) .ready(function() {
     $('.switch') .click (function() {
         $('.menu') .toggleClass ('visible');
@@ -23,6 +24,11 @@ $ (document) .ready(function() {
 });
 document.getElementById("help") .innerHTML=("Książki, z których korzystam"); 
 document.getElementById("help").style.textTransform ="uppercase";
+
+
+if (d = new Date().getHours() < 18);
+alert("have a good day!");
+
 
   
 

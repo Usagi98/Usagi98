@@ -155,8 +155,8 @@ nav ul, nav ul.visible {
 .font {
 	font-size: 18px;
 	line-height: 1.5;
-	padding-left: 16%;
-	padding-right: 16%;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 /*----480px------*/
 @media screen and (max-width: 480px) {
@@ -174,6 +174,9 @@ nav ul, nav ul.visible {
 		text-align: center;
 	    background-color: #D2C0AC;
 		
+	}
+	.menu a {
+		color: gray;
 	}
 	nav ul.visible {
 		display: block;
@@ -232,5 +235,9 @@ nav ul, nav ul.visible {
 	}
 	nav {
 		width: 100%;
+	}
+	.menu a {
+	  color: white;
+	  text-shadow: 2px 2px 4px #000000;
 	}
 	}
