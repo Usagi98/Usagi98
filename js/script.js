@@ -25,10 +25,16 @@ $ (document) .ready(function() {
 document.getElementById("help") .innerHTML=("Książki, z których korzystam"); 
 document.getElementById("help").style.textTransform ="uppercase";
 
+var hour = new Date().getHours();
+var greetings;
 
-if (d = new Date().getHours() < 18);
-alert("have a good day!");
-
+if (hour < 18) {
+  greetings = "Have a nice day!"
+  alert(greetings);
+} else {
+  greetings = "Have a nice evening!"
+  alert(greetings);
+}; 
 
   
 
