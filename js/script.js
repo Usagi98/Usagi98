@@ -22,13 +22,9 @@ $ (document) .ready(function() {
      $('.line') .css("text-decoration", "overline", "#5D2275");
     });
 });
-document.getElementById("progress") .innerHTML=("Subpage in progress");
-document.getElementById("help") .innerHTML=("Książki, z których korzystam"); 
-document.getElementById("help").style.textTransform ="uppercase";
 
 var hour = new Date().getHours();
 var greetings;
-
 if (hour < 18) {
   greetings = "Have a nice day!"
   alert(greetings);
@@ -36,6 +32,10 @@ if (hour < 18) {
   greetings = "Have a nice evening!"
   alert(greetings);
 }; 
+document.getElementById("progress") .innerHTML=("Subpage in progress");
+document.getElementById("help") .innerHTML=("Książki, z których korzystam"); 
+document.getElementById("help").style.textTransform ="uppercase";
+
 
 
 
