@@ -36,6 +36,10 @@ document.getElementById("progress") .innerHTML=("Subpage in progress");
 document.getElementById("help") .innerHTML=("Książki, z których korzystam"); 
 document.getElementById("help").style.textTransform ="uppercase";
 
+function timer() {
+  var g = document.getElementById("linkedin");
+  setTimeout(g, 2000);
+}
 
 
 
